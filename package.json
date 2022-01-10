@@ -1,0 +1,17 @@
+{
+  "name": "@scinos/metal-earth-blog",
+  "version": "1.0.0",
+  "description": "Blog with my Metal Earth models",
+  "main": "index.js",
+  "repository": "git@github.com:scinos/metal-models.git",
+  "author": "Sergio Cinos <sergio.cinos@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.32"
+  }
+}

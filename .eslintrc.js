@@ -4,9 +4,11 @@ module.exports = {
         es2021: true,
     },
     extends: [
+        'eslint:recommended',
         'airbnb-base',
         'plugin:vue/essential',
         'plugin:md/prettier',
+        'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
     ],
     parserOptions: {
@@ -31,5 +33,9 @@ module.exports = {
     ],
     rules: {
         indent: ['error', 4],
+        'import/no-extraneous-dependencies': [
+            'error',
+            { devDependencies: ['src/.vuepress/config.ts'] },
+        ],
     },
 }

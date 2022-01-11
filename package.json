@@ -9,7 +9,8 @@
     "scripts": {
         "dev": "vuepress dev src",
         "build": "vuepress build src",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "clean": "rm -fr dist .cache .temp"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.9.1",

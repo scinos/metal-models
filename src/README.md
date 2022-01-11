@@ -1,6 +1,7 @@
 ---
 title: Projects
 description: List of Metal Earth projects
+sidebar: false
 ---
 
 # Models

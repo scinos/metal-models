@@ -24,7 +24,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       // NavbarItem
       {
         text: 'Models',
-        link: '/Models.md',
+        link: '/',
       },
     ],
   },

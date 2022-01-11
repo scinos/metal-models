@@ -7,6 +7,25 @@ export default defineUserConfig<DefaultThemeOptions>({
     temp: './.temp',
     cache: './.cache',
 
+    head: [
+        [
+            'link',
+            {
+                rel: 'preconnect',
+                href: 'https://fonts.gstatic.com',
+                crossorigin: true,
+            },
+        ],
+        ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+        [
+            'link',
+            {
+                href: 'https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap',
+                rel: 'stylesheet',
+            },
+        ],
+    ],
+
     // site config
     title: 'Metal Folds',
     description: 'Pictures of my Metal Earth models',

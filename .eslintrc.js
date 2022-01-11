@@ -6,6 +6,7 @@ module.exports = {
     extends: [
         'airbnb-base',
         'plugin:vue/essential',
+        'plugin:md/prettier',
         'plugin:prettier/recommended',
     ],
     parserOptions: {
@@ -13,6 +14,21 @@ module.exports = {
         parser: '@typescript-eslint/parser',
     },
     plugins: ['vue', '@typescript-eslint'],
+    overrides: [
+        {
+            files: ['*.md'],
+            parser: 'markdown-eslint-parser',
+            rules: {
+                'prettier/prettier': [
+                    'error',
+                    {
+                        // Tells prettier to use `markdown` parser for .md files
+                        parser: 'markdown',
+                    },
+                ],
+            },
+        },
+    ],
     rules: {
         indent: ['error', 4],
     },

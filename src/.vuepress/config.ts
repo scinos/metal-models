@@ -1,3 +1,4 @@
+import { path } from '@vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 
@@ -31,7 +32,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     description: 'Pictures of my Metal Earth models',
 
     // theme and its config
-    theme: '@vuepress/theme-default',
+    theme: path.resolve(__dirname, './theme'),
     themeConfig: {
         darkMode: false,
         logo: '/images/logo_64.png',

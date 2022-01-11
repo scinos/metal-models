@@ -1,19 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 body {
-  font-size: 18px;
+    font-size: 18px;
 }
+
+.navbar .navbar-items-wrapper {
+    font-size: 1.2rem;
+}
+
 :root {
-  --t-color: 0;
-  --navbar-height: calc(64px + 2 * 0.7rem);
-  --font-family: "Titillium Web", sans-serif;
+    --t-color: 0;
+    --navbar-height: calc(64px + 2 * 0.7rem);
+    --font-family: 'Titillium Web', sans-serif;
 
-  // brand colors
-  --c-brand: #f5b053;
-  --c-brand-light: #e3c97c;
+    // brand colors
+    --c-brand: #f5b053;
+    --c-brand-light: #e3c97c;
 
-  // background colors
-  --c-bg: #202a34;
-  --c-text: #e0dedf;
-  --c-border: #97c9c7;
+    // background colors
+    --c-bg: #202a34;
+    --c-text: #e0dedf;
+    --c-border: #97c9c7;
 }

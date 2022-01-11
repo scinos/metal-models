@@ -14,6 +14,21 @@ export default defineUserConfig<DefaultThemeOptions>({
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {
+    darkMode: false,
     logo: 'https://vuejs.org/images/logo.png',
+    themePlugins: {
+      nprogress: false,
+      git: false,
+    },
+    navbar: [
+      // NavbarItem
+      {
+        text: 'Models',
+        link: '/Models.md',
+      },
+    ],
   },
+  markdown: {
+    anchor: false
+  }
 })

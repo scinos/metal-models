@@ -8,7 +8,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   cache: './.cache',
 
   // site config
-  title: 'Metal Models',
+  title: 'Metal Folds',
   description: 'Pictures of my Metal Earth models',
 
   // theme and its config

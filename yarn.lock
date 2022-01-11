@@ -156,6 +156,7 @@ __metadata:
     eslint-plugin-vue: ^8.2.0
     prettier: ^2.5.1
     vue: ^3.2.26
+    vue-inline-svg: next
     vuepress: ^2.0.0-beta.32
   languageName: unknown
   linkType: soft
@@ -5627,6 +5628,15 @@ __metadata:
   peerDependencies:
     eslint: ">=6.0.0"
   checksum: 9c40558975ef0aecb5cf8977d59d39ffde58108c652b8fd66524aec0cc828fe63e2146c0a95b2ccb52fbd97c1b1d3e5936919920c12d4de4be4c5a752dbc4e53
+  languageName: node
+  linkType: hard
+
+"vue-inline-svg@npm:next":
+  version: 3.1.0
+  resolution: "vue-inline-svg@npm:3.1.0"
+  peerDependencies:
+    vue: ^3
+  checksum: 052864683e49465cb8352dcfe2a3b8897479958823d048cf0b326c83b9e0d76085a552242649e0c19e896e636644c28a63024cfe398ceff0e426902923b4978a
   languageName: node
   linkType: hard
 

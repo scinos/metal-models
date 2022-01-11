@@ -4,8 +4,21 @@ body {
     font-size: 18px;
 }
 
+.theme-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.page {
+    padding-bottom: var(--size-bottom);
+}
+
 .navbar .navbar-items-wrapper {
     font-size: 1.2rem;
+}
+
+main.page {
+    transition: unset;
 }
 
 :root {
@@ -19,6 +32,9 @@ body {
 
     // background colors
     --c-bg: #202a34;
+    --c-bg-secondary: #4d3957;
     --c-text: #e0dedf;
     --c-border: #97c9c7;
+
+    --size-bottom: 5rem;
 }

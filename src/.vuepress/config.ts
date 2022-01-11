@@ -15,7 +15,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: '@vuepress/theme-default',
   themeConfig: {
     darkMode: false,
-    logo: '/images/logo_128.png',
+    logo: '/images/logo_64.png',
     themePlugins: {
       nprogress: false,
       git: false,

@@ -156,7 +156,6 @@ __metadata:
     eslint-plugin-md: ^1.0.19
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-vue: ^8.2.0
-    markdown-it-figure-gallery: ^0.2.0
     photoswipe: "dimsemenov/photoswipe#v5-beta"
     prettier: ^2.5.1
     typescript: ^4.5.4
@@ -3299,15 +3298,6 @@ __metadata:
   version: 2.0.0
   resolution: "markdown-it-emoji@npm:2.0.0"
   checksum: 7d25844134d98a4e2cf70d9a14ea4ec5afc3f64740d69c88012795c8a24ed2f286850b72fd4437d60d2fe34f73cc1889a7e8e3ab4663f4fc3a4899991601bbba
-  languageName: node
-  linkType: hard
-
-"markdown-it-figure-gallery@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "markdown-it-figure-gallery@npm:0.2.0"
-  peerDependencies:
-    markdown-it: ^9.0.0
-  checksum: dc5770a3ea267a6a4949fc6ad0338e821c61df175730daee7fbdbbcd27260014e57e1be21d89742486f76f1d5d80c2e5e03b7b907032432a5a7a11383015fc48
   languageName: node
   linkType: hard
 

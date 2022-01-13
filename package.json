@@ -33,7 +33,6 @@
     },
     "packageManager": "yarn@3.1.1",
     "dependencies": {
-        "markdown-it-figure-gallery": "^0.2.0",
         "photoswipe": "dimsemenov/photoswipe#v5-beta"
     }
 }

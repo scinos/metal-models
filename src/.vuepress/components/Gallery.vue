@@ -2,8 +2,8 @@
     <div class="pswp-gallery" id="gallery">
         <a v-for="item in images" :href="item.image" :data-pswp-width="item.width" :data-pswp-height="item.height">
             <figure>
-                <img :src="item.thumbnail"/>
-                <figcaption>{{item.title}}</figcaption>
+                <img :src="item.thumbnail" loading="lazy"/>
+                <figcaption v-if="item.title">{{item.title}}</figcaption>
             </figure>
         </a>
     </div>
@@ -29,11 +29,16 @@
 </script>
 
 <style lang="scss">
+    .pswp-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     figure {
         margin: 0px;
         margin-bottom: 1rem;
         position: relative;
-        background-color: red;
 
         figcaption {
            position:absolute;

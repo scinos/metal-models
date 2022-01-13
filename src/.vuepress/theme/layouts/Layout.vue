@@ -61,9 +61,10 @@ export default {
     min-height: var(--size-bottom);
 
     .copyright {
-      text-align: center;
+      text-align: right;
       flex: 2;
       font-size: 0.8rem;
+      margin-right: 2.5rem;
     }
 
     .personal-card {

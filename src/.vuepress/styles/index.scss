@@ -2,23 +2,27 @@
 
 body {
     font-size: 18px;
-}
 
-.theme-container {
-    position: relative;
-    min-height: 100vh;
-}
+    .back-to-top {
+        bottom: 3rem;
+    }
 
-.page {
-    padding-bottom: var(--size-bottom);
-}
+    .theme-container {
+        position: relative;
+        min-height: 100vh;
+    }
 
-.navbar .navbar-items-wrapper {
-    font-size: 1.2rem;
-}
+    .page {
+        padding-bottom: var(--size-bottom);
+    }
 
-main.page {
-    transition: unset;
+    .navbar .navbar-items-wrapper {
+        font-size: 1.2rem;
+    }
+
+    main.page {
+        transition: unset;
+    }
 }
 
 :root {

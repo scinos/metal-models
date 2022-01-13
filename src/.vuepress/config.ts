@@ -1,7 +1,6 @@
 import { path } from '@vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
-import figureGallery from 'markdown-it-figure-gallery'
 
 export default defineUserConfig<DefaultThemeOptions>({
     // dir config
@@ -49,27 +48,5 @@ export default defineUserConfig<DefaultThemeOptions>({
     // markdown config
     markdown: {
         anchor: false,
-    },
-    extendsMarkdown: (md) => {
-        md.use(figureGallery, {
-            figcaption: true,
-            dataType: false,
-            schemaAttributes: false,
-            photoswipeIntegration: true,
-        })
-    },
-
-    // bundlerConfig: {
-    //     viteOptions:{
-    //         build: {
-    //             target: 'node16',
-    //             commonjsOptions: {
-    //                 include: ['**/client/lib/app.js'],
-    //             }
-    //         },
-    //         // esbuild: {
-    //             // include: ['/Users/sergio/src/blogs/metalearth/node_modules/photoswipe/dist/photoswipe-lightbox.esm.js']
-    //         // },
-    //     }
-    // },
+    }
 })

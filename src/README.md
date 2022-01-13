@@ -8,7 +8,7 @@ sidebar: false
 
 ## Star Wars
 
-- [Snowspeeder](./starwars/snowspeeder/)
+- [Snowspeeder](./models/snowspeeder)
 - [Imperial AT-AT](./starwars/imperial-at-at/)
 - [Kylo Ren's Command Shuttle](./starwars/kylo-ren-command-shuttle/)
 

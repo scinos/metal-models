@@ -6,7 +6,7 @@ module.exports = {
     extends: [
         'eslint:recommended',
         'airbnb-base',
-        'plugin:vue/essential',
+        'plugin:vue/vue3-essential',
         'plugin:md/prettier',
         'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
@@ -30,12 +30,24 @@ module.exports = {
                 ],
             },
         },
+        {
+            files: ['*.vue'],
+            parser: 'vue-eslint-parser',
+            globals: {
+                __VUEPRESS_SSR__: false,
+            },
+        },
     ],
     rules: {
         indent: ['error', 4],
         'import/no-extraneous-dependencies': [
             'error',
-            { devDependencies: ['src/.vuepress/config.ts'] },
+            {
+                devDependencies: true,
+            },
         ],
+        'import/extensions': ['error', 'always'],
+
+        'vue/multi-word-component-names': 'off',
     },
 }

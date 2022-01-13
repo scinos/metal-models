@@ -40,13 +40,11 @@ export default defineUserConfig<DefaultThemeOptions>({
             git: false,
             mediumZoom: false,
         },
-        navbar: [
-            { text: 'Models', link: '/', },
-        ],
+        navbar: [{ text: 'Models', link: '/' }],
     },
 
     // markdown config
     markdown: {
         anchor: false,
-    }
+    },
 })

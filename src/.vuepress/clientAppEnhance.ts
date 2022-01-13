@@ -1,6 +1,6 @@
 import { defineClientAppEnhance } from '@vuepress/client'
-import Gallery from './components/Gallery.vue';
+import Gallery from './components/Gallery.vue'
 
-export default defineClientAppEnhance(({ app, router, siteData }) => {
-  app.component('Gallery', Gallery)
+export default defineClientAppEnhance(({ app }) => {
+    app.component('Gallery', Gallery)
 })

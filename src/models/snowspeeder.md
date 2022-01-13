@@ -4,7 +4,7 @@ navbar: true
 sidebar: false
 ---
 
-# Snowspeeder
+# Star Wars: Snowspeeder
 
 My first [Metal Earth](https://www.metalearth.com/) model!
 

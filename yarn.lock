@@ -154,9 +154,11 @@ __metadata:
     eslint-plugin-md: ^1.0.19
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-vue: ^8.2.0
+    markdown-it-figure-gallery: ^0.2.0
+    photoswipe: "dimsemenov/photoswipe#v5-beta"
     prettier: ^2.5.1
     vue: ^3.2.26
-    vue-inline-svg: next
+    vue-inline-svg: ^3.1.0
     vuepress: ^2.0.0-beta.32
   languageName: unknown
   linkType: soft
@@ -3297,6 +3299,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-it-figure-gallery@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "markdown-it-figure-gallery@npm:0.2.0"
+  peerDependencies:
+    markdown-it: ^9.0.0
+  checksum: dc5770a3ea267a6a4949fc6ad0338e821c61df175730daee7fbdbbcd27260014e57e1be21d89742486f76f1d5d80c2e5e03b7b907032432a5a7a11383015fc48
+  languageName: node
+  linkType: hard
+
 "markdown-it@npm:^12.2.0":
   version: 12.3.2
   resolution: "markdown-it@npm:12.3.2"
@@ -3866,6 +3877,13 @@ __metadata:
   version: 4.0.0
   resolution: "path-type@npm:4.0.0"
   checksum: 5b1e2daa247062061325b8fdbfd1fb56dde0a448fb1455453276ea18c60685bdad23a445dc148cf87bc216be1573357509b7d4060494a6fd768c7efad833ee45
+  languageName: node
+  linkType: hard
+
+"photoswipe@dimsemenov/photoswipe#v5-beta":
+  version: 5.1.7
+  resolution: "photoswipe@https://github.com/dimsemenov/photoswipe.git#commit=60040164333bd257409669e715e4327afdb3aec7"
+  checksum: 9b807be136b6772f35299378981ae8f71bea9e4128df5423d474dde9bc85521fd283b932c7b7f3ca145cffd3164f9f02c863ed993a34f8260a38d7e1654115ce
   languageName: node
   linkType: hard
 
@@ -5631,7 +5649,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-inline-svg@npm:next":
+"vue-inline-svg@npm:^3.1.0":
   version: 3.1.0
   resolution: "vue-inline-svg@npm:3.1.0"
   peerDependencies:

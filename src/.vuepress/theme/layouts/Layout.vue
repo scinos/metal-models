@@ -28,9 +28,9 @@
 
 <script>
 import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
-import twitterLogoSrc from "../../public/images/twitter.svg";
-import githubLogoSrc from "../../public/images/github.svg";
-import linkedInLogoSrc from "../../public/images/linkedin.svg";
+import twitterLogoSrc from "../../public/logos/twitter.svg";
+import githubLogoSrc from "../../public/logos/github.svg";
+import linkedInLogoSrc from "../../public/logos/linkedin.svg";
 import InlineSvg from 'vue-inline-svg';
 
 export default {

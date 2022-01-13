@@ -17,9 +17,7 @@ I really like the detailed interior though. I love the seats, the wheel and ther
 
 [Official model](https://www.metalearth.com/delorean)
 
-![1](./1.jpg)
-![2](./2.jpg)
-![3](./3.jpg)
-![4](./4.jpg)
-![5](./5.jpg)
-![6](./6.jpg)
+<Gallery :images="[
+    {image: '/images/1.jpg', thumbnail: '/images/1.jpg', title: 'text', width: 3840, height: 2160},
+    {image: '/images/2.jpg', thumbnail: '/images/2.jpg', title: 'another text' , width: 3840, height: 2160}
+]"/>

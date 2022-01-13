@@ -1,13 +1,17 @@
 import { path } from '@vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import figureGallery from 'markdown-it-figure-gallery'
 
 export default defineUserConfig<DefaultThemeOptions>({
-    // common config
+    // dir config
     dest: './dist',
     temp: './.temp',
     cache: './.cache',
 
+    // site config
+    title: 'Metal Folds',
+    description: 'Pictures of my Metal Earth models',
     head: [
         [
             'link',
@@ -27,28 +31,45 @@ export default defineUserConfig<DefaultThemeOptions>({
         ],
     ],
 
-    // site config
-    title: 'Metal Folds',
-    description: 'Pictures of my Metal Earth models',
-
     // theme and its config
     theme: path.resolve(__dirname, './theme'),
     themeConfig: {
         darkMode: false,
-        logo: '/images/logo_64.png',
+        logo: '/logos/logo_64.png',
         themePlugins: {
             nprogress: false,
             git: false,
+            mediumZoom: false,
         },
         navbar: [
-            // NavbarItem
-            {
-                text: 'Models',
-                link: '/',
-            },
+            { text: 'Models', link: '/', },
         ],
     },
+
+    // markdown config
     markdown: {
         anchor: false,
     },
+    extendsMarkdown: (md) => {
+        md.use(figureGallery, {
+            figcaption: true,
+            dataType: false,
+            schemaAttributes: false,
+            photoswipeIntegration: true,
+        })
+    },
+
+    // bundlerConfig: {
+    //     viteOptions:{
+    //         build: {
+    //             target: 'node16',
+    //             commonjsOptions: {
+    //                 include: ['**/client/lib/app.js'],
+    //             }
+    //         },
+    //         // esbuild: {
+    //             // include: ['/Users/sergio/src/blogs/metalearth/node_modules/photoswipe/dist/photoswipe-lightbox.esm.js']
+    //         // },
+    //     }
+    // },
 })

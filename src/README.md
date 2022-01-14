@@ -6,11 +6,12 @@ sidebar: false
 
 # Models
 
-## Star Wars
+[![Snowspeeder](/images/snowspeeder/entry.webp)](./models/snowspeeder)
+[![Sydney Opera House](/images/sydney-opera-house/entry.webp)](./models/sydney-opera-house)
+[![Kylo Ren's Command Shuttle](/images/kylo-shuttle/entry.webp)](./models/kylo-ren-command-shuttle)
+[![Imperial AT-AT](/images/at-at/entry.webp)](./models/at-at)
 
-- [Snowspeeder](./models/snowspeeder)
-- [Imperial AT-AT](./models/at-at)
-- [Kylo Ren's Command Shuttle](./models/kylo-ren-command-shuttle)
+## Star Wars
 
 ## Batman
 
@@ -20,4 +21,3 @@ sidebar: false
 ## Other
 
 - [DeLorean: Back to the Future](./other/back-to-the-future-delorean/)
-- [Sydney Opera House](./models/sydney-opera-house)

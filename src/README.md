@@ -11,20 +11,31 @@ sidebar: false
 <div class="images">
     <a href="/models/snowspeeder">
         <figure>
-            <img src="/images/snowspeeder/entry.webp" alt="Image of a Snowspeeder model"/>
+            <img src="/images/snowspeeder/entry.webp" alt="Model model, a Snowspeeder"/>
             <figcaption>Snowspeeder</figcaption>
         </figure>
     </a>
     <a href="/models/at-at">
         <figure>
-            <img src="/images/at-at/entry.webp" alt="Image of an AT-AT model"/>
+            <img src="/images/at-at/entry.webp" alt="Metal model, an AT-AT"/>
             <figcaption>Imperial AT-AT</figcaption>
         </figure>
     </a>
     <a href="/models/kylo-ren-command-shuttle">
         <figure>
-            <img src="/images/kylo-shuttle/entry.webp" alt="Image of Kylo Ren's Command Shuttle model"/>
+            <img src="/images/kylo-shuttle/entry.webp" alt="Metal model, Kylo Ren's Command Shuttle model"/>
             <figcaption>Kylo Ren's Command Shuttle</figcaption>
+        </figure>
+    </a>
+</div>
+
+## Batman
+
+<div class="images">
+    <a href="/models/batmobile-tv-series">
+        <figure>
+            <img src="/images/batmobile-tv/entry.webp" alt="Metal model, the Batmobile from the 1966 TV series"/>
+            <figcaption>Batmobile: TV Series (1966)</figcaption>
         </figure>
     </a>
 </div>
@@ -34,7 +45,7 @@ sidebar: false
 <div class="images">
     <a href="/models/sydney-opera-house">
         <figure>
-            <img src="/images/sydney-opera-house/entry.webp" alt="Image of Sydney Opera House model"/>
+            <img src="/images/sydney-opera-house/entry.webp" alt="Metal model, Sydney Opera House model"/>
             <figcaption>Sydney Opera House</figcaption>
         </figure>
     </a>

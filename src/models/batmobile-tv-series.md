@@ -5,7 +5,7 @@ navbar: true
 sidebar: false
 ---
 
-# Batmobile: TV Series (1966)
+# Batman: Batmobile TV Series (1966)
 
 I got a bit tired of the Star Wars theme and decided to try models from my favorite superhero: Batman. There are a few models available, but I found the batmobile series really appealing.
 
@@ -17,9 +17,15 @@ Overall, I'm not super impressed with this model. It doesn't have a lot of detai
 
 [Official model](https://www.metalearth.com/batman/batman-classic-tv-series-batmobile)
 
-![1](./1.jpg)
-![2](./2.jpg)
-![3](./3.jpg)
-![4](./4.jpg)
-![5](./5.jpg)
-![6](./6.jpg)
+<Gallery :images="[
+    {image: '/images/batmobile-tv/model_1.jpg',  thumbnail: '/images/batmobile-tv/model_1_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/model_2.jpg',  thumbnail: '/images/batmobile-tv/model_2_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/model_3.jpg',  thumbnail: '/images/batmobile-tv/model_3_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/model_4.jpg',  thumbnail: '/images/batmobile-tv/model_4_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/model_4.jpg',  thumbnail: '/images/batmobile-tv/model_4_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/detail_1.jpg', thumbnail: '/images/batmobile-tv/detail_1_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/detail_2.jpg', thumbnail: '/images/batmobile-tv/detail_2_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/detail_3.jpg', thumbnail: '/images/batmobile-tv/detail_3_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/detail_4.jpg', thumbnail: '/images/batmobile-tv/detail_4_thumb.webp', width: 3840, height: 2160},
+    {image: '/images/batmobile-tv/detail_4.jpg', thumbnail: '/images/batmobile-tv/detail_4_thumb.webp', width: 3840, height: 2160}
+]"/>

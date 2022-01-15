@@ -38,6 +38,12 @@ sidebar: false
             <figcaption>Batmobile: TV Series (1966)</figcaption>
         </figure>
     </a>
+    <a href="/models/batmobile-batman-movie">
+        <figure>
+            <img src="/images/batmobile-movie/entry.webp" alt="Metal model, the Batmobile from the 1989 movie"/>
+            <figcaption>Batmobile: Batman movie (1989)</figcaption>
+        </figure>
+    </a>
 </div>
 
 ## Other
@@ -76,11 +82,6 @@ sidebar: false
         }
     }
 </style>
-
-## Batman
-
-- [Batmobile: TV Series (1966)](./batman/batmobile-tv-series/)
-- [Batmobile: Batman movie (1989)](./batman/batmobile-batman-movie/)
 
 ## Other
 

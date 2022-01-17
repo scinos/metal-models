@@ -43,6 +43,15 @@ export default defineUserConfig<DefaultThemeOptions>({
         navbar: [{ text: 'Models', link: '/' }],
     },
 
+    plugins: [
+        [
+            '@vuepress/register-components',
+            {
+                componentsDir: path.resolve(__dirname, './components'),
+            },
+        ],
+    ],
+
     // markdown config
     markdown: {
         anchor: false,

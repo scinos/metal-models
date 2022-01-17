@@ -146,7 +146,7 @@ __metadata:
   dependencies:
     "@typescript-eslint/eslint-plugin": ^5.9.1
     "@typescript-eslint/parser": ^5.9.1
-    "@vuepress/client": ^2.0.0-beta.32
+    "@vuepress/plugin-register-components": 2.0.0-beta.32
     "@vuepress/theme-default": ^2.0.0-beta.32
     "@vuepress/utils": ^2.0.0-beta.32
     eslint: ^8.6.0
@@ -540,7 +540,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/client@npm:2.0.0-beta.32, @vuepress/client@npm:^2.0.0-beta.32":
+"@vuepress/client@npm:2.0.0-beta.32":
   version: 2.0.0-beta.32
   resolution: "@vuepress/client@npm:2.0.0-beta.32"
   dependencies:
@@ -689,6 +689,17 @@ __metadata:
     "@vuepress/core": 2.0.0-beta.32
     prismjs: ^1.25.0
   checksum: c31f8c8e00e606f25609d9cd0a40c91c05f4948896275086b104fba51465d83c9456541fed5054b671a9f83c20916bf5dd3f783ab1c18610090015245ffe4ee3
+  languageName: node
+  linkType: hard
+
+"@vuepress/plugin-register-components@npm:2.0.0-beta.32":
+  version: 2.0.0-beta.32
+  resolution: "@vuepress/plugin-register-components@npm:2.0.0-beta.32"
+  dependencies:
+    "@vuepress/core": 2.0.0-beta.32
+    "@vuepress/utils": 2.0.0-beta.32
+    chokidar: ^3.5.2
+  checksum: dcd246f6e61bf8458535d7f3f7a33a2a7973fa76a3c6f12c86344c2f82425824f5c99b61d06be4b9017d15b8448402b9f755e195eaacfdcbb82fbac06f53a1d0
   languageName: node
   linkType: hard
 

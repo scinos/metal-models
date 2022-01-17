@@ -12,7 +12,7 @@ export default {
     props: ['path', 'name', 'alt'],
     computed: {
         modelPath() {
-            return `/models/${this.path}`
+            return `/models/${this.path}.html`
         },
         imagePath() {
             return `/images/${this.path}/entry.webp`

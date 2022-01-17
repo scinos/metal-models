@@ -40,7 +40,10 @@ export default defineUserConfig<DefaultThemeOptions>({
             git: false,
             mediumZoom: false,
         },
-        navbar: [{ text: 'Models', link: '/' }],
+        navbar: [
+            { text: 'Models', link: '/' },
+            { text: 'About', link: '/about.html' },
+        ],
     },
 
     plugins: [

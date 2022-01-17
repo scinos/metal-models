@@ -31,7 +31,16 @@
                     </div>
                 </div>
                 <div class="copyright">
-                    © 2022, Sergio Cinos. All rights reserved.
+                    © 2022, Sergio Cinos. All rights reserved.<br />
+                    Built with
+                    <a href="https://v2.vuepress.vuejs.org/" target="_blank"
+                        >VuePress 2</a
+                    >. Source in
+                    <a
+                        href="https://github.com/scinos/metal-models"
+                        target="_blank"
+                        >GitHub</a
+                    >
                 </div>
             </div>
         </template>

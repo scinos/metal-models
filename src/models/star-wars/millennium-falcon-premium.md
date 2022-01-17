@@ -26,5 +26,6 @@ The model has a few things that could be improved thought. The bend of the cockp
     'detail_2',
     'detail_3',
     'detail_4',
-    'detail_5'
+    'detail_5',
+    'scale'
 ]"/>

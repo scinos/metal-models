@@ -27,5 +27,6 @@ I bought special tools for this model to help with the curved and cylindrical pa
     'detail_3',
     'detail_4',
     'detail_5',
-    'detail_6'
+    'detail_6',
+    'scale'
 ]"/>

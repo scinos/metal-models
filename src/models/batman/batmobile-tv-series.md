@@ -28,5 +28,6 @@ Overall, I'm not super impressed with this model. It doesn't have a lot of detai
     'detail_2',
     'detail_3',
     'detail_4',
-    'detail_5'
+    'detail_5',
+    'scale'
 ]"/>

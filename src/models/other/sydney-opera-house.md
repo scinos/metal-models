@@ -17,13 +17,14 @@ I wouldn't recommend this model: it is just not fun to build, and it is not _tha
 [Official model](https://www.metalearth.com/sydney-opera-house)
 
 <Gallery path="other/sydney-opera-house" :images="[
-    'model_1',
-    'model_2',
-    'model_3',
-    'model_4',
-    'model_5',
-    'detail_1',
-    'detail_2',
-    'detail_3',
-    'detail_4'
+'model_1',
+'model_2',
+'model_3',
+'model_4',
+'model_5',
+'detail_1',
+'detail_2',
+'detail_3',
+'detail_4',
+'scale'
 ]"/>

@@ -24,5 +24,6 @@ I must admit I use some glue for this model, as the base was a bit flimsy and th
     'detail_1',
     'detail_2',
     'detail_3',
-    'detail_4'
+    'detail_4',
+    'scale'
 ]"/>

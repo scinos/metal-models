@@ -26,5 +26,6 @@ I really like the detailed interior though. I love the seats, the wheel and ther
     'detail_1',
     'detail_2',
     'detail_3',
-    'detail_4'
+    'detail_4',
+    'scale'
 ]"/>

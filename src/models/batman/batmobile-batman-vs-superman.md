@@ -23,5 +23,6 @@ I love the strong presence of the wheels (especially the rear wheels). They are,
     'model_6',
     'detail_1',
     'detail_2',
-    'detail_3'
+    'detail_3',
+    'scale'
 ]"/>

@@ -27,5 +27,6 @@ The most important lesson for this model is that you really need something to sh
     'detail_2',
     'detail_3',
     'detail_4',
-    'detail_5'
+    'detail_5',
+    'scale'
 ]"/>

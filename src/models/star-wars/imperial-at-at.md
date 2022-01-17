@@ -26,5 +26,6 @@ The legs and the ankles were very sturdy so the entire model is quite stable.
     'detail_1',
     'detail_2',
     'detail_3',
-    'detail_4'
+    'detail_4',
+    'scale'
 ]"/>

@@ -13,7 +13,7 @@ Anyway, this model is painted! That was a cool feature. It is not very noticeabl
 
 The model itself wasn't particularly fun to build. The bodywork is strange: the roof is not a solid piece and it sits in the black "frame" together with the doors and the windshield. It was very brittle, and I almost broke it a few times. In the end, I managed to fit it all together but I had to bend and twist the frame in weird ways.
 
-I really like the detailed interior though. I love the seats, the wheel and there is even a tiny hand-brake! Also, I really like the wheels, the rim is slightly concave and white, which gives the model a nice touch.
+I really like the detailed interior though. I love the seats, the wheel and there is even a tiny hand-brake! Also, I like the wheels, the rim is slightly concave and white, which gives the model a nice touch.
 
 [Official model](https://www.metalearth.com/delorean)
 

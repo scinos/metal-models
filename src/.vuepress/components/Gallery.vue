@@ -1,11 +1,11 @@
 <template>
     <div class="pswp-gallery" id="gallery">
         <a
-            v-for="(item, index) in images"
+            v-for="(item, index) in imagesWithPath"
             :key="index"
             :href="item.image"
-            :data-pswp-width="item.width"
-            :data-pswp-height="item.height"
+            :data-pswp-width="width"
+            :data-pswp-height="height"
         >
             <figure>
                 <img :src="item.thumbnail" loading="lazy" />
@@ -17,7 +17,23 @@
 
 <script lang="ts">
 export default {
-    props: ['images'],
+    props: ['images', 'path'],
+
+    data() {
+        return {
+            width: 3840,
+            height: 2160,
+        }
+    },
+
+    computed: {
+        imagesWithPath() {
+            return this.images.map((image) => ({
+                image: `/images/${this.path}/${image}.jpg`,
+                thumbnail: `/images/${this.path}/${image}_thumb.webp`,
+            }))
+        },
+    },
 
     async mounted() {
         if (!__VUEPRESS_SSR__) {

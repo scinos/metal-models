@@ -17,15 +17,16 @@ Overall, I'm not super impressed with this model. It doesn't have a lot of detai
 
 [Official model](https://www.metalearth.com/batman/batman-classic-tv-series-batmobile)
 
-<Gallery :images="[
-    {image: '/images/batmobile-tv/model_1.jpg',  thumbnail: '/images/batmobile-tv/model_1_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/model_2.jpg',  thumbnail: '/images/batmobile-tv/model_2_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/model_3.jpg',  thumbnail: '/images/batmobile-tv/model_3_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/model_4.jpg',  thumbnail: '/images/batmobile-tv/model_4_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/model_4.jpg',  thumbnail: '/images/batmobile-tv/model_4_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/detail_1.jpg', thumbnail: '/images/batmobile-tv/detail_1_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/detail_2.jpg', thumbnail: '/images/batmobile-tv/detail_2_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/detail_3.jpg', thumbnail: '/images/batmobile-tv/detail_3_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/detail_4.jpg', thumbnail: '/images/batmobile-tv/detail_4_thumb.webp', width: 3840, height: 2160},
-    {image: '/images/batmobile-tv/detail_4.jpg', thumbnail: '/images/batmobile-tv/detail_4_thumb.webp', width: 3840, height: 2160}
+<Gallery path="batman/batmobile-tv-series" :images="[
+    'model_1',
+    'model_2',
+    'model_3',
+    'model_4',
+    'model_5',
+    'model_6',
+    'detail_1',
+    'detail_2',
+    'detail_3',
+    'detail_4',
+    'detail_5'
 ]"/>

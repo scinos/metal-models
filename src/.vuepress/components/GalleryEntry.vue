@@ -1,7 +1,7 @@
 <template>
     <a class="gallery-entry" :href="modelPath">
         <figure>
-            <img :src="imagePath" :alt="alt" />
+            <img :src="imagePath" :alt="alt" height="200" width="200" />
             <figcaption>{{ name }}</figcaption>
         </figure>
     </a>

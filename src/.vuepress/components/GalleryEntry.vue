@@ -24,6 +24,7 @@ export default {
 <style lang="scss">
 .gallery-entry figure {
     transition: 100ms linear;
+    margin: 2rem;
 
     img {
         filter: grayscale(1);

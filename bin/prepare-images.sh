@@ -10,6 +10,11 @@ SOURCE=$1
 TARGET=$2
 ENTRY=$3
 
+
+# Vertical
+bigSize='3840x2156'
+smallSize='700x400'
+
 mkdir -p "$TARGET"
 
 for file in "$SOURCE"/*.JPG; do
@@ -17,12 +22,12 @@ for file in "$SOURCE"/*.JPG; do
 
     # Big image
     image="${TARGET}/${name%.*}.jpg"
-    convert "$file" -resize '3840x2156' "${image}"
+    convert -auto-orient "$file" -resize "${bigSize}" "${image}"
     jpegoptim "${image}" --strip-all
 
     # Thumbnail
     thumb="${TARGET}/${name%.*}_thumb.jpg"
-    convert "$file" -resize '700x400'   "${thumb}"
+    convert -auto-orient "$file" -resize "${smallSize}"   "${thumb}"
     cwebp "${thumb}" -o "${thumb%.*}.webp";
     rm "${thumb}"
 
@@ -30,7 +35,7 @@ for file in "$SOURCE"/*.JPG; do
     if [[ "$name" == "$ENTRY" ]];
     then
         entry="${TARGET}/entry.jpg"
-        convert "$file" -thumbnail 200x200^ -gravity center -extent 200x200 "${entry}"
+        convert -auto-orient "$file" -thumbnail 200x200^ -gravity center -extent 200x200 "${entry}"
         cwebp "${entry}" -o "${entry%.*}.webp";
         rm "${entry}"
     fi

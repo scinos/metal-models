@@ -28,6 +28,7 @@ sidebar: false
 <div class="images">
     <GalleryEntry path="other/delorean" name="DeLorean: Back to the Future" alt="Metal model, a DeLorean"/>
     <GalleryEntry path="other/sydney-opera-house" name="Sydney Opera House" alt="Metal model, the Sydney Opera House"/>
+    <GalleryEntry path="other/ironman" name="Ironman" alt="Metal model, Ironman"/>
 </div>
 
 <style lang="scss">

@@ -4,8 +4,8 @@
             v-for="(item, index) in imagesWithPath"
             :key="index"
             :href="item.image"
-            :data-pswp-width="width"
-            :data-pswp-height="height"
+            :data-pswp-width="vertical ? height : width"
+            :data-pswp-height="vertical ? width : height"
         >
             <figure>
                 <img :src="item.thumbnail" loading="lazy" />
@@ -17,7 +17,7 @@
 
 <script lang="ts">
 export default {
-    props: ['images', 'path'],
+    props: ['images', 'path', 'vertical'],
 
     data() {
         return {
@@ -58,12 +58,11 @@ export default {
 .pswp-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 figure {
-    margin: 0px;
-    margin-bottom: 1rem;
+    margin: 1rem;
     position: relative;
 
     figcaption {

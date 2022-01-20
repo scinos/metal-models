@@ -2,11 +2,30 @@
 date: 2022-01-20 06:32:58
 navbar: true
 sidebar: false
+head:
+  - - meta
+    - property: og:url
+      content: 'https://metalfolds.page/models/other/ironman.html/'
+  - - meta
+    - property: og:type
+      content: 'website'
+  - - meta
+    - property: og:title
+      content: 'Ironman'
+  - - meta
+    - property: og:description
+      content: 'Metal model of Ironman suite from Picecool'
+  - - meta
+    - property: og:image
+      content: '/images/other/ironman/model_1_thumb.webp'
+  - - meta
+    - name: 'twitter:card'
+      content: 'summary_large_image'
 ---
 
 # Ironman
 
-This is my first Premium (aka big) model. And I absolutely love it! It was very fun to build, challenging but not frustrating and the result is astounding.
+This is my first big model. And I absolutely love it! It was very fun to build, challenging but not frustrating and the result is astounding.
 
 It has the feeling of the real Ironman suit, in the sense that instead of having a single piece for a body part, you have layers of assembled pieces, like the real suit. This is very noticeable in the feet (with 7 pieces each) and the helmet (8 pieces). The model has a total of 112 pieces by the way.
 

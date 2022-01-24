@@ -2,19 +2,20 @@
 date: 2022-01-20 06:32:58
 navbar: true
 sidebar: false
-opengraph: true
-description: Metal model of Ironman suite from Picecool
-head:
-  - - meta
-    - property: og:image
-      content: '/images/other/ironman/model_1_thumb.webp'
+description: Large metal model of Iron Man's armor
+opengraph:
+  image: /images/other/ironman/card.jpg
+# head:
+#   - - meta
+#     - property: og:image
+#       content: '/images/other/ironman/card.jpg'
 ---
 
-# Ironman
+# Iron Man's armor
 
 This is my first big model. And I absolutely love it! It was very fun to build, challenging but not frustrating and the result is astounding.
 
-It has the feeling of the real Ironman suit, in the sense that instead of having a single piece for a body part, you have layers of assembled pieces, like the real suit. This is very noticeable in the feet (with 7 pieces each) and the helmet (8 pieces). The model has a total of 112 pieces by the way.
+It has the feeling of the real armor, in the sense that instead of having a single piece for a body part, you have layers of assembled pieces, like the real suit. This is very noticeable in the feet (with 7 pieces each) and the helmet (8 pieces). The model has a total of 112 pieces by the way.
 
 The colors are vibrant and nice. However, it scratches very easily, and the many visible tabs end up losing the red coating. But as the metal itself is golden in color, it kind of fits with the overall look.
 

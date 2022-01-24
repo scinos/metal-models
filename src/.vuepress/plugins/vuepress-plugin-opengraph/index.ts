@@ -1,4 +1,13 @@
 import type { Page } from 'vuepress'
+import type { HeadConfig } from '@vuepress/shared'
+
+type OpengraphConfig = {
+    image?: string
+}
+
+const ogMeta = (name: string, value: string): HeadConfig => {
+    return ['meta', { property: name, content: value }]
+}
 
 export default {
     name: 'vuepress-plugin-opengraph',
@@ -6,6 +15,8 @@ export default {
         if (!page.frontmatter?.opengraph) {
             return
         }
+
+        const openGraph = page.frontmatter.opengraph as OpengraphConfig
 
         page.frontmatter.head = [
             ...(page.frontmatter?.head || []),
@@ -16,39 +27,11 @@ export default {
                     content: 'summary_large_image',
                 },
             ],
-            [
-                'meta',
-                {
-                    property: 'og:type',
-                    content: 'website',
-                },
-            ],
+            ogMeta('og:type', 'website'),
         ]
 
-        if (page.frontmatter.description) {
-            page.frontmatter.head.push([
-                'meta',
-                {
-                    property: 'og:description',
-                    content: page.frontmatter.description,
-                },
-            ])
-        }
-
-        if (page.title) {
-            page.frontmatter.head.push([
-                'meta',
-                {
-                    property: 'og:title',
-                    content: page.title,
-                },
-            ])
+        if (openGraph.image) {
+            page.frontmatter.head.push(ogMeta('og:image', openGraph.image))
         }
     },
-
-    // onInitialized: (app) => {
-    //     for (const page of app.pages) {
-    //         debugger
-    //     }
-    // },
 }

@@ -5,6 +5,8 @@
       "strict": true,
       "jsx": "preserve",
       "sourceMap": true,
+
+      "isolatedModules": true,
     },
     "include": [
       "src/**/*",

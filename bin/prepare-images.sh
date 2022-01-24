@@ -10,15 +10,24 @@ SOURCE=$1
 TARGET=$2
 ENTRY=$3
 
-
 # Vertical
 bigSize='3840x2156'
+cardSize='1200x630'
 smallSize='700x400'
 
 mkdir -p "$TARGET"
 
 for file in "$SOURCE"/*.JPG; do
     name=$(basename -- "$file")
+
+
+    # Card
+    if [[ "$name" == "card.JPG" ]];
+    then
+        card="${TARGET}/card.jpg"
+        convert -auto-orient "$file" -resize "${cardSize}" "${card}"
+        continue
+    fi
 
     # Big image
     image="${TARGET}/${name%.*}.jpg"
@@ -39,4 +48,5 @@ for file in "$SOURCE"/*.JPG; do
         cwebp "${entry}" -o "${entry%.*}.webp";
         rm "${entry}"
     fi
+
 done

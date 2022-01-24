@@ -3,10 +3,15 @@ import type { HeadConfig } from '@vuepress/shared'
 
 type OpengraphConfig = {
     image?: string
+    author?: string
 }
 
 const ogMeta = (name: string, value: string): HeadConfig => {
     return ['meta', { property: name, content: value }]
+}
+
+const twitterMeta = (name: string, value: string): HeadConfig => {
+    return ['meta', { name, content: value }]
 }
 
 export default {
@@ -20,13 +25,7 @@ export default {
 
         page.frontmatter.head = [
             ...(page.frontmatter?.head || []),
-            [
-                'meta',
-                {
-                    name: 'twitter:card',
-                    content: 'summary_large_image',
-                },
-            ],
+            twitterMeta('twitter:card', 'summary_large_image'),
             ogMeta('og:type', 'website'),
         ]
 
@@ -42,6 +41,12 @@ export default {
 
         if (openGraph.image) {
             page.frontmatter.head.push(ogMeta('og:image', openGraph.image))
+        }
+
+        if (openGraph.author) {
+            page.frontmatter.head.push(
+                twitterMeta('twitter:creator', openGraph.author)
+            )
         }
     },
 

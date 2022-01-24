@@ -1,17 +1,30 @@
 {
     "configurations": [
         {
-            "name": "Dev",
-            "request": "launch",
-            "runtimeArgs": [
-                "dev",
-            ],
-            "runtimeExecutable": "yarn",
+            "name": "Attach",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "type": "pwa-node"
         },
+
+        {
+            "name": "Dev",
+            "request": "launch",
+            "runtimeArgs": [
+                "start",
+            ],
+            "runtimeExecutable": "yarn",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "sourceMaps": true,
+        },
+
+
         {
             "name": "Build",
             "request": "launch",

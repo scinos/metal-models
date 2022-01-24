@@ -49,5 +49,7 @@ module.exports = {
         'import/extensions': ['error', 'always'],
 
         'vue/multi-word-component-names': 'off',
+
+        'no-param-reassign': 'off',
     },
 }

@@ -2,25 +2,12 @@
 date: 2022-01-20 06:32:58
 navbar: true
 sidebar: false
+opengraph: true
+description: Metal model of Ironman suite from Picecool
 head:
-  - - meta
-    - property: og:url
-      content: 'https://metalfolds.page/models/other/ironman.html/'
-  - - meta
-    - property: og:type
-      content: 'website'
-  - - meta
-    - property: og:title
-      content: 'Ironman'
-  - - meta
-    - property: og:description
-      content: 'Metal model of Ironman suite from Picecool'
   - - meta
     - property: og:image
       content: '/images/other/ironman/model_1_thumb.webp'
-  - - meta
-    - name: 'twitter:card'
-      content: 'summary_large_image'
 ---
 
 # Ironman

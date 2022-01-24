@@ -1,6 +1,7 @@
 import { path } from '@vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import PluginOpengraph from './plugins/vuepress-plugin-opengraph'
 
 export default defineUserConfig<DefaultThemeOptions>({
     // dir config
@@ -53,6 +54,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 componentsDir: path.resolve(__dirname, './components'),
             },
         ],
+        PluginOpengraph,
     ],
 
     // markdown config

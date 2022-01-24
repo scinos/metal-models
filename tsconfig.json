@@ -4,10 +4,11 @@
       "module": "esnext",
       "strict": true,
       "jsx": "preserve",
-      "moduleResolution": "node"
+      "sourceMap": true,
     },
     "include": [
-      "src/**/*"
+      "src/**/*",
+      "src/.vuepress/**/*",
     ],
     "exclude": ["node_modules"]
 }

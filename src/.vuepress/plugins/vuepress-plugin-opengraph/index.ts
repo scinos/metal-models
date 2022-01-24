@@ -30,8 +30,24 @@ export default {
             ogMeta('og:type', 'website'),
         ]
 
+        if (page.frontmatter.description) {
+            page.frontmatter.head.push(
+                ogMeta('og:description', page.frontmatter.description)
+            )
+        }
+
+        if (page.title) {
+            page.frontmatter.head.push(ogMeta('og:title', page.title))
+        }
+
         if (openGraph.image) {
             page.frontmatter.head.push(ogMeta('og:image', openGraph.image))
         }
     },
+
+    // onInitialized: (app) => {
+    //     for (const page of app.pages) {
+    //         debugger
+    //     }
+    // },
 }

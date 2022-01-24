@@ -55,7 +55,13 @@ export default defineUserConfig<DefaultThemeOptions, WebpackBundlerOptions>({
                 componentsDir: path.resolve(__dirname, './components'),
             },
         ],
-        PluginOpengraph,
+        [
+            PluginOpengraph,
+            {
+                author: '@scinos',
+                baseUrl: 'https://metalfolds.page',
+            },
+        ],
     ],
 
     // markdown config

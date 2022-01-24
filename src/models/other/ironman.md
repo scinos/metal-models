@@ -5,7 +5,6 @@ sidebar: false
 description: Large metal model of Iron Man's armor
 opengraph:
   image: https://metalfolds.page/images/other/ironman/card.jpg
-  author: '@scinos'
 ---
 
 # Iron Man's armor

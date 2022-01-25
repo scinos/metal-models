@@ -1,10 +1,9 @@
 import { path } from '@vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
-import type { WebpackBundlerOptions } from '@vuepress/bundler-webpack'
 import PluginOpengraph from './plugins/vuepress-plugin-opengraph'
 
-export default defineUserConfig<DefaultThemeOptions, WebpackBundlerOptions>({
+export default defineUserConfig<DefaultThemeOptions>({
     // dir config
     dest: './dist',
     temp: './.temp',
@@ -68,6 +67,4 @@ export default defineUserConfig<DefaultThemeOptions, WebpackBundlerOptions>({
     markdown: {
         anchor: false,
     },
-
-    bundler: '@vuepress/bundler-webpack',
 })

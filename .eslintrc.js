@@ -4,19 +4,27 @@ module.exports = {
         es2021: true,
     },
     extends: [
-        'eslint:recommended',
         'airbnb-base',
         'plugin:vue/vue3-essential',
         'plugin:md/prettier',
-        'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
     ],
     parserOptions: {
         ecmaVersion: 13,
-        parser: '@typescript-eslint/parser',
     },
-    plugins: ['vue', '@typescript-eslint'],
+    plugins: ['vue'],
     overrides: [
+        {
+            files: ['*.ts'],
+            // These need to be separated because otherwhise `airbnb-typescript/base` will force everything to be parsed with
+            // `@typescript-eslint/parser`, which requires parserOptions.project to be set, which breaks if it is set and there
+            // is an override with a different parser
+            extends: ['airbnb-typescript/base', 'plugin:prettier/recommended'],
+            parserOptions: {
+                parser: '@typescript-eslint/parser',
+                project: './tsconfig.eslint.json',
+            },
+        },
         {
             files: ['*.md'],
             parser: 'markdown-eslint-parser',

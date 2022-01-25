@@ -24,12 +24,25 @@
             "sourceMaps": true,
         },
 
-
         {
             "name": "Build",
             "request": "launch",
             "runtimeArgs": [
                 "build",
+            ],
+            "runtimeExecutable": "yarn",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+
+
+        {
+            "name": "Lint",
+            "request": "launch",
+            "runtimeArgs": [
+                "lint",
             ],
             "runtimeExecutable": "yarn",
             "skipFiles": [

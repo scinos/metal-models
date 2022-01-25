@@ -15,7 +15,7 @@ It has the feeling of the real armor, in the sense that instead of having a sing
 
 The colors are vibrant and nice. However, it scratches very easily, and the many visible tabs end up losing the red coating. But as the metal itself is golden in color, it kind of fits with the overall look.
 
-The downside is, as usual, the curved parts (which I guess will be common in any organic model). Getting the right bending in the torso was challenging, and I end up just forcing it until everybody fit together and only then try to give it a round-ish shape. In this regard, the ass-plate was particularly challenging.
+The downside is, as usual, the curved parts (which I guess will be common in any organic model). Getting the right bending in the torso was challenging, and I end up just forcing it until everything fit together and only then try to give it a round-ish shape. In this regard, the ass-plate was particularly challenging.
 
 Another detail that could be improved is the hands. The right-hand fingers have either 3 or 2 sides that are not linked together, just bent at the right angle. The result is a not very pleasing peeled-off effect. The left-hand fingers are just engraved, which looks better in my opinion, but still not great.
 

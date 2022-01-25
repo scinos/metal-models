@@ -15,9 +15,6 @@
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.10.1",
         "@typescript-eslint/parser": "^5.10.1",
-        "@vuepress/bundler-webpack": "2.0.0-beta.35",
-        "@vuepress/plugin-register-components": "2.0.0-beta.35",
-        "@vuepress/theme-default": "2.0.0-beta.35",
         "eslint": "^8.7.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-airbnb-typescript": "^16.1.0",
@@ -26,16 +23,17 @@
         "eslint-plugin-md": "^1.0.19",
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-vue": "^8.3.0",
-        "firebase-tools": "^10.1.2",
         "prettier": "^2.5.1",
-        "typescript": "^4.5.5",
-        "vue": "^3.2.29",
-        "vue-inline-svg": "^3.1.0"
+        "typescript": "^4.5.5"
     },
     "packageManager": "yarn@3.1.1",
     "dependencies": {
+        "@vuepress/plugin-register-components": "2.0.0-beta.35",
+        "@vuepress/theme-default": "2.0.0-beta.35",
         "@vuepress/utils": "2.0.0-beta.35",
         "photoswipe": "dimsemenov/photoswipe#v5-beta",
+        "vue": "^3.2.29",
+        "vue-inline-svg": "^3.1.0",
         "vuepress": "2.0.0-beta.35"
     }
 }

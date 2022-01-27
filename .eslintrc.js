@@ -5,14 +5,12 @@ module.exports = {
     },
     extends: [
         'airbnb-base',
-        'plugin:vue/vue3-essential',
         'plugin:md/prettier',
         'plugin:prettier/recommended',
     ],
     parserOptions: {
         ecmaVersion: 13,
     },
-    plugins: ['vue'],
     overrides: [
         {
             files: ['*.ts'],
@@ -40,9 +38,16 @@ module.exports = {
         },
         {
             files: ['*.vue'],
-            parser: 'vue-eslint-parser',
+            extends: ['plugin:vue/vue3-essential'],
+            parserOptions: {
+                parser: '@typescript-eslint/parser',
+                sourceType: 'module',
+            },
             globals: {
                 __VUEPRESS_SSR__: false,
+            },
+            rules: {
+                'vue/multi-word-component-names': 'off',
             },
         },
     ],
@@ -55,8 +60,6 @@ module.exports = {
             },
         ],
         'import/extensions': ['error', 'always'],
-
-        'vue/multi-word-component-names': 'off',
 
         'no-param-reassign': 'off',
     },

@@ -5,3 +5,6 @@ declare module '*.vue' {
     const component: DefineComponent<{}, {}, any>
     export default component
 }
+
+// eslint-disable-next-line no-underscore-dangle, @typescript-eslint/naming-convention
+declare const __VUEPRESS_SSR__: boolean

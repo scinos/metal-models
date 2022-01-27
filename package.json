@@ -10,7 +10,8 @@
         "start": "vuepress dev src",
         "build": "vuepress build src",
         "lint": "eslint .",
-        "clean": "rm -fr dist .cache .temp"
+        "clean": "rm -fr dist .cache .temp",
+        "typecheck": "tsc --noEmit && vue-tsc --noEmit --skipLibCheck --noImplicitAny false"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.10.1",
@@ -24,7 +25,8 @@
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-vue": "^8.3.0",
         "prettier": "^2.5.1",
-        "typescript": "^4.5.5"
+        "typescript": "^4.5.5",
+        "vue-tsc": "^0.31.1"
     },
     "packageManager": "yarn@3.1.1",
     "dependencies": {

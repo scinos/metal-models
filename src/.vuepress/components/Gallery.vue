@@ -16,7 +16,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue'
+
+export default defineComponent({
     props: ['images', 'path', 'vertical'],
 
     data() {
@@ -28,7 +30,7 @@ export default {
 
     computed: {
         imagesWithPath() {
-            return this.images.map((image) => ({
+            return this.images.map((image: string) => ({
                 image: `/images/${this.path}/${image}.jpg`,
                 thumbnail: `/images/${this.path}/${image}_thumb.webp`,
             }))
@@ -51,7 +53,7 @@ export default {
             lightbox.init()
         }
     },
-}
+})
 </script>
 
 <style lang="scss">

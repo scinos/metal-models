@@ -8,17 +8,23 @@
 </template>
 
 <script lang="ts">
-export default {
-    props: ['path', 'name', 'alt'],
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+    props: {
+        path: String,
+        name: String,
+        alt: String,
+    },
     computed: {
-        modelPath() {
+        modelPath(): string {
             return `/models/${this.path}.html`
         },
-        imagePath() {
+        imagePath(): string {
             return `/images/${this.path}/entry.webp`
         },
     },
-}
+})
 </script>
 
 <style lang="scss">
